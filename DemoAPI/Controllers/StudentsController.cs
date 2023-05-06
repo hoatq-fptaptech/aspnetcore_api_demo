@@ -5,12 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using DemoAPI.Entities;
+using System.Web.Http.Cors;
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace DemoAPI.Controllers
 {
     [ApiController]
     [Route("api/students")]
+    [EnableCors(origins:"*",methods:"*",headers:"*")]
     public class StudentsController : ControllerBase
     {
         private readonly Entities.Context _context;

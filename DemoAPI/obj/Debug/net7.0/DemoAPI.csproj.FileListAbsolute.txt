@@ -74,3 +74,9 @@
 /Users/macbook/Projects/DemoAPI/DemoAPI/obj/Debug/net7.0/DemoAPI.pdb
 /Users/macbook/Projects/DemoAPI/DemoAPI/obj/Debug/net7.0/DemoAPI.genruntimeconfig.cache
 /Users/macbook/Projects/DemoAPI/DemoAPI/obj/Debug/net7.0/ref/DemoAPI.dll
+/Users/macbook/Projects/DemoAPI/DemoAPI/bin/Debug/net7.0/System.Web.Cors.dll
+/Users/macbook/Projects/DemoAPI/DemoAPI/bin/Debug/net7.0/System.Net.Http.Formatting.dll
+/Users/macbook/Projects/DemoAPI/DemoAPI/bin/Debug/net7.0/System.Web.Http.dll
+/Users/macbook/Projects/DemoAPI/DemoAPI/bin/Debug/net7.0/System.Web.Http.Cors.dll
+/Users/macbook/Projects/DemoAPI/DemoAPI/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/macbook/Projects/DemoAPI/DemoAPI/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
