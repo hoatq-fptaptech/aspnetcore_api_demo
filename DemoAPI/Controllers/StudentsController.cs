@@ -10,7 +10,7 @@ using DemoAPI.Entities;
 namespace DemoAPI.Controllers
 {
     [ApiController]
-    [Route("api/students/[action]")]
+    [Route("api/students")]
     public class StudentsController : ControllerBase
     {
         private readonly Entities.Context _context;
@@ -28,6 +28,7 @@ namespace DemoAPI.Controllers
         }
 
         [HttpGet]
+        [Route("get-by-id")]
         public IActionResult Get(int id)
         {
             var student = _context.Students.Find(id);
@@ -39,7 +40,7 @@ namespace DemoAPI.Controllers
         {
             _context.Students.Add(student);
             _context.SaveChanges();
-            return Created($"/Get?id={student.Id}",student);
+            return Created($"/get-by-id?id={student.Id}",student);
         }
 
         [HttpPut]
